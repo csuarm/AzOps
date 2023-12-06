@@ -4,7 +4,7 @@ param (
 )
 
 # Development Modules
-Write-Output "Jiffy jiffy w oho o"
+Write-Output "Chasper cheese jiffy"
 Set-PSRepository -Name $Repository -InstallationPolicy Trusted
 $modules = @("Pester", "PSModuleDevelopment", "PSScriptAnalyzer")
 Write-Output "Installing development modules"
